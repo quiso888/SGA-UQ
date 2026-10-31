@@ -10,12 +10,12 @@ import exceptions.TransicionEstadoInvalidaException;
 /**
  * Reserva de una estancia en un apartamento.
  *
- * <p>Implementa {@link Comparable} con <b>orden natural por fecha de entrada</b> (y
+ * Implementa {@link Comparable} con orden natural por fecha de entrada (y
  * código como desempate), lo que permite almacenar las reservas de cada apartamento
- * en un árbol binario ordenado y detectar solapamientos de forma recursiva.</p>
+ * en un árbol binario ordenado y detectar solapamientos de forma recursiva.
  *
- * <p>Ciclo de vida: {@code Pendiente → Confirmada → En curso → Finalizada}, con salidas
- * alternativas a {@code Cancelada} o {@code No-show}.</p>
+ * Ciclo de vida: {@code Pendiente → Confirmada → En curso → Finalizada}, con salidas
+ * alternativas a {@code Cancelada} o {@code No-show}.
  */
 public class Reserva implements Comparable<Reserva> {
 

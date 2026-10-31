@@ -6,8 +6,8 @@ import java.time.format.DateTimeFormatter;
 /**
  * Movimiento de un folio: un cargo, un pago o un abono.
  *
- * <p>Los movimientos <b>nunca se borran</b>. Cuando hay que corregir una operación se
- * registra un movimiento contrario (por ejemplo, un abono que revierte un cargo).</p>
+ * Los movimientos nunca se borran. Cuando hay que corregir una operación se
+ * registra un movimiento contrario (por ejemplo, un abono que revierte un cargo).
  */
 public class Movimiento {
 

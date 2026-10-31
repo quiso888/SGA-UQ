@@ -9,13 +9,13 @@ import exceptions.EstructuraVaciaException;
 /**
  * Folio: la cuenta de una reserva.
  *
- * <p>Contiene todos los cargos y pagos asociados a la estancia. Los movimientos
- * <b>nunca se borran</b>: para corregir una operación se registra el movimiento
- * contrario.</p>
+ * Contiene todos los cargos y pagos asociados a la estancia. Los movimientos
+ * nunca se borran: para corregir una operación se registra el movimiento
+ * contrario.
  *
- * <p>Cada operación que se registra se apila en una {@link Pila}. Al deshacer la
+ * Cada operación que se registra se apila en una pila. Al deshacer la
  * última operación, se saca de la pila y se agrega al folio su movimiento inverso,
- * de modo que el historial queda completo y auditable.</p>
+ * de modo que el historial queda completo y auditable.
  */
 public class Folio {
 

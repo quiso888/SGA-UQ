@@ -5,9 +5,9 @@ import java.time.LocalDate;
 /**
  * Ocupante de una reserva.
  *
- * <p>El huésped titular registra a sus ocupantes con su fecha de nacimiento. Los
- * ocupantes menores de seis años <b>ocupan cupo pero no pagan</b>, por lo que el
- * sistema necesita su fecha de nacimiento para determinarlo en cada noche.</p>
+ * El huésped titular registra a sus ocupantes con su fecha de nacimiento. Los
+ * ocupantes menores de seis años ocupan cupo pero no pagan, por lo que el
+ * sistema necesita su fecha de nacimiento para determinarlo en cada noche.
  */
 public class Ocupante {
 

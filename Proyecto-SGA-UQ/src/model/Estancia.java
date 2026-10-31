@@ -10,19 +10,18 @@ import exceptions.FechasInvalidasException;
 /**
  * Estancia: el intervalo de tiempo que un grupo ocupa un apartamento.
  *
- * <p>Regla central del alojamiento: <b>la noche de salida no se cobra ni se ocupa</b>.
+ * Regla central del alojamiento:la noche de salida no se cobra ni se ocupa.
  * Por eso la estancia del 10 al 12 de marzo son dos noches (10 y 11 de marzo) y el
- * apartamento queda libre el 12.</p>
+ * apartamento queda libre el 12
  *
- * <p>La estancia es <b>iterable sobre las noches a cobrar</b>, lo que permite
- * liquidarla con un simple for-each:</p>
+ * La estancia es iterable sobre las noches a cobrar, lo que permite
+ * liquidarla con un simple for-each:
  *
- * <pre>{@code
  * for (LocalDate noche : estancia) {
  *     double valorNoche = tarifa * personasQuePaganEn(noche);
  *     // ...
  * }
- * }</pre>
+ * }
  */
 public class Estancia implements Iterable<LocalDate> {
 

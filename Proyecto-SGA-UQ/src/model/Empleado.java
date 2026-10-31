@@ -3,10 +3,10 @@ package model;
 /**
  * Empleado del alojamiento (recepcionista o administrador).
  *
- * <p>Los recepcionistas rotan turnos: el turno actual se administra con una
- * {@link datastructures.ListaCircular} de empleados. El orden natural es por
- * <b>documento</b>, lo que permite guardar a los empleados en un
- * {@link datastructures.ArbolBinarioBusqueda}.</p>
+ * Los recepcionistas rotan turnos: el turno actual se administra con una
+ * {datastructures.ListaCircular} de empleados. El orden natural es por
+ * <documento, lo que permite guardar a los empleados en un
+ * {datastructures.ArbolBinarioBusqueda}.
  */
 public class Empleado implements Comparable<Empleado> {
 

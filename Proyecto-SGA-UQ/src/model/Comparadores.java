@@ -3,21 +3,19 @@ package model;
 import java.util.Comparator;
 
 /**
- * Colección de <b>comparadores alternativos</b> exigidos por el enunciado.
+ * Colección de comparadores alternativos exigidos por el enunciado.
  *
- * <p>Se implementan al menos cuatro:</p>
- * <ol>
- *   <li>{@link PorPrecio} — apartamentos por precio de la temporada.</li>
- *   <li>{@link PorCapacidad} — apartamentos por capacidad máxima.</li>
- *   <li>{@link PorNumeroReservas} — apartamentos por número de reservas registradas.</li>
- *   <li>{@link PrioridadPreparacion} — prioridad de la cola de preparación, que
- *       <b>combina comparadores con {@code thenComparing}</b>: primero la entrada de
+ * Se implementan al menos cuatro:
+ *   {PorPrecio} — apartamentos por precio de la temporada.
+ *   {PorCapacidad} — apartamentos por capacidad máxima.
+ *   {PorNumeroReservas} — apartamentos por número de reservas registradas.
+ *   {PrioridadPreparacion} — prioridad de la cola de preparación, que
+ *       combina comparadores con {thenComparing}: primero la entrada de
  *       hoy, luego la hora estimada de llegada y por último el tiempo que el
- *       apartamento lleva pendiente.</li>
- * </ol>
+ *       apartamento lleva pendiente
  *
- * <p>Se añade {@link PorNumeroDormitorios} como criterio adicional de búsqueda de
- * disponibilidad.</p>
+ * Se añade { PorNumeroDormitorios} como criterio adicional de búsqueda de
+ * disponibilidad.
  */
 public final class Comparadores {
 

@@ -6,17 +6,15 @@ import datastructures.Conjunto;
 /**
  * Apartamento del alojamiento.
  *
- * <p>Implementa {@link Comparable} con <b>orden natural por código</b>, lo que
- * permite localizarlo en el árbol binario de búsqueda en milisegundos.</p>
+ * Implementa {Comparable} con orden natural por código, lo que
+ * permite localizarlo en el árbol binario de búsqueda en milisegundos.
  *
- * <p>Cada apartamento:</p>
- * <ul>
- *   <li>se entrega completo y en exclusiva a un solo grupo,</li>
- *   <li>tiene una tarifa por persona y por noche para cada temporada,</li>
- *   <li>mantiene sus reservas en un árbol binario ordenado por fecha de entrada,
- *       que es lo que hace eficiente la detección de solapamientos,</li>
- *   <li>tiene una posición (x, y) para dibujarlo en el mapa interactivo.</li>
- * </ul>
+ * Cada apartamento:
+ *   se entrega completo y en exclusiva a un solo grupo,
+ *   tiene una tarifa por persona y por noche para cada temporada,
+ *   mantiene sus reservas en un árbol binario ordenado por fecha de entrada,
+ *       que es lo que hace eficiente la detección de solapamientos,
+ *   tiene una posición (x, y) para dibujarlo en el mapa interactivo.
  */
 public class Apartamento implements Comparable<Apartamento> {
 

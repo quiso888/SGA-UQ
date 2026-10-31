@@ -8,15 +8,13 @@ import datastructures.ListaDobleEnlazada;
 /**
  * Huésped del alojamiento.
  *
- * <p>Implementa {@link Comparable} con <b>orden natural por documento</b>, que es lo
+ * Implementa {@link Comparable} con orden natural por documento, que es lo
  * que permite almacenarlo en el árbol binario de búsqueda para localizarlo en
- * milisegundos.</p>
+ * milisegundos.
  *
- * <p>Guarda además:</p>
- * <ul>
- *   <li>su conjunto de <b>apartamentos favoritos</b> (sin duplicados),</li>
- *   <li>su <b>historial de estancias</b> en una lista doblemente enlazada.</li>
- * </ul>
+ * Guarda además:
+ * su conjunto de apartamentos favoritos(sin duplicados)
+ * su historial de estancias en una lista doblemente enlazada.
  */
 public class Huesped implements Comparable<Huesped> {
 
