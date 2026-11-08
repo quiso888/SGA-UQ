@@ -1,4 +1,24 @@
+# Archivos compilados
+build/
+out/
+*.class
+
+# Configuración de IDE
+.idea/
 *.iml
-/.idea
-.idea/vcs.xml
-/.idea
+.vscode/
+nbproject/
+*.nbattrs
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+
+# Registros temporales
+*.log
+
+# Frontend (web)
+node_modules/
+.env.local
+.env.*.local
+coverage/
